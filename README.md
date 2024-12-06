@@ -50,8 +50,8 @@ Once the program runs, the user will be able to:
 - Optionally, click the **Clear** button to reset the input fields.
 
 ## Output
-### Screenshot
-![Currency Converter Screenshot](https://github.com/user-attachments/assets/sample-screenshot.png)
+![ScreenShot](https://github.com/user-attachments/assets/7c09e86b-cceb-482a-99f1-557f294f9886)
+
 
 ## Code Structure
 The project consists of the following structure:
