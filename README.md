@@ -1,45 +1,71 @@
-# Currency-converter
-This is a simple Currency Converter Java application with a Graphical User Interface (GUI). The application allows users to convert currencies from one type to another (e.g., from USD to EUR) with real-time exchange rates.
+# Currency_Converter
 
-You can view the live project or download the source code from the GitHub repository below:<br>
-itHub Repository: https://github.com/manishdahake10/Currency-converter
+## Overview
+This is a **Currency Converter** application built using Java with a Graphical User Interface (GUI). The application allows users to convert currencies from one type to another (e.g., from USD to EUR) with real-time exchange rates. The goal is to provide a simple, interactive interface for currency conversion.
 
-<h2>Features</h2>
-Convert Currencies: Convert between multiple currencies with a user-friendly interface.<br>
-Simple and Interactive GUI: Built with Java Swing to provide an easy-to-use graphical interface.<br>
-Supports Multiple Currencies: Includes popular currencies like USD, EUR, GBP, INR, and more.<br>
-Real-Time Conversion: Calculates conversion using predefined exchange rates (can be integrated with an API for live exchange rates).<br>
+## Features
+- Convert between multiple **currencies** (e.g., USD, EUR, GBP, INR).
+- **User-friendly GUI** built with **Java Swing**.
+- Real-time currency conversion (can be integrated with an API for live exchange rates).
+- Simple input and output fields for entering and displaying conversion results.
+- Option to clear the input fields for a new conversion.
+- Error handling for invalid input to ensure smooth user experience.
 
-<h2>Tech Stack</h2>
-Java: The primary language used to build the application.<br>
-Java Swing: Used to create the graphical user interface (GUI).<br>
-Exchange Rate API: This project can be extended to fetch real-time exchange rates if integrated with an API (like Open Exchange Rates or any other service).<br>
+## Technologies Used
+- **Java**: The programming language used for building the application.
+- **Swing**: Java's GUI toolkit used to create the graphical user interface.
+- **Exchange Rate API (Optional)**: The project can be extended to fetch real-time exchange rates if integrated with an API like Open Exchange Rates.
 
-<h2>Installation</h2>
-To run this project locally on your machine, follow these steps:<br>
-1.Clone the repository:<br>
-    git clone https://github.com/manishdahake10/Currency-converter.git<br>
+## Requirements
+- **Java 8 or above**.
+- No external libraries are required, but an API for live exchange rates can be integrated if desired.
 
-2.Navigate to the project directory:<br>
-    cd Currency-converter<br>
+## Installation
+1. Clone this repository to your local machine:
+    ```bash
+    git clone https://github.com/manishdahake10/Currency-converter.git
+    ```
 
-3.Compile and run the project:<br>
-If you have a Java IDE (like IntelliJ IDEA, Eclipse, etc.), you can import the project and run the class Currency_Converter directly.<br>
-Alternatively, you can compile and run the project using the command line:<br>
-    javac Currency_Converter.java    # Compile the code<br>
-    java Currency_Converter          # Run the application<br>
+2. Navigate to the project directory:
+    ```bash
+    cd Currency-converter
+    ```
 
-4.Launch the application: The GUI will open, and you can start using the currency converter.<br>
+3. Compile the `Currency_Converter.java` file:
+    ```bash
+    javac Currency_Converter.java
+    ```
 
-<h2>Project Structure</h2>
-Currency-converter/<br>
-│<br>
-├── Currency_Converter.java      # Main Java file with the GUI logic and conversion logic<br>
-├── README.md                   # This file<br>
-└── resources/                  # Folder for any images/icons or additional resources<br>
+4. Run the application:
+    ```bash
+    java Currency_Converter
+    ```
 
-<h2>Contributing</h2>
-Feel free to fork this project and submit pull requests if you want to contribute improvements or new features. If you have any suggestions or find bugs, please open an issue.
+## Usage
+Once the program runs, the user will be able to:
+- Select the currency to convert from.
+- Enter an amount in the selected currency.
+- Choose the currency to convert to.
+- Click the **Convert** button to view the result.
+- Optionally, click the **Clear** button to reset the input fields.
 
+## Output
+### Screenshot
+![Currency Converter Screenshot](https://github.com/user-attachments/assets/sample-screenshot.png)
 
+## Code Structure
+The project consists of the following structure:
 
+- `Currency_Converter.java`: The main Java file that handles the GUI and conversion logic.
+- The GUI components are set up using **Java Swing**.
+- Currency conversion logic is implemented using predefined exchange rates or can be integrated with an API for live rates.
+
+## Contribution
+Feel free to fork this repository and contribute by opening issues or submitting pull requests. If you would like to enhance this project or fix bugs, feel free to contribute with your changes!
+
+## Author
+Manish Dahake  
+GitHub: [manishdahake10](https://github.com/manishdahake10)
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
